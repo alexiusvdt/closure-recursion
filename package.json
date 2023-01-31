@@ -1,0 +1,22 @@
+{
+  "name": "closures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=development",
+    "start": "npm run build && webpack-dev-server --open --mode=development",
+    "lint": "eslint src/*.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/plugin-transform-modules-commonjs": "^7.18.6",
+    "eslint": "^8.33.0",
+    "eslint-plugin-fp": "^2.3.0",
+    "jest": "^24.9.0"
+  }
+}
